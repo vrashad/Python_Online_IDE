@@ -18,6 +18,14 @@ A secure Flask-based online Python compiler that executes code in isolated Docke
 - Flask
 - docker-py (Python Docker API)
 
+## Project structure
+
+```
+project/
+├── app.py             # Flask APP
+└── users_task_scripts # Directory for temporary files (created automatically)
+```
+
 ## Installation
 
 1. Clone the repository:
